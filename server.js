@@ -8,6 +8,7 @@ const fs = require('fs')
 const minimist = require('minimist')(process.argv.slice(2))
 
 // Define allowed argument name 'port'.
+const args = require('minimist')(process.argv.slice(2))
 args["port"]
 
 // Define a const `port` using the argument from the command line. 
