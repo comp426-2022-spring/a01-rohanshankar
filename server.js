@@ -21,7 +21,7 @@ const port = args.port || process.env.PORT || 3000
 // The stuff that should be inside this function is all below.
 // If there is an error, put it on the console error, return, and exit with error code 1. 
 // Do not be nice about exiting.
-fs.readFile("./www/index.html", "utf-8" , (err, data) => {
+fs.readFile("/www/index.html", "utf-8" , (err, data) => {
   if (err) {
     console.error(err)
     return
